@@ -214,6 +214,7 @@ set(SOURCES
   musicbrainz/chromaprinter.cpp
   musicbrainz/musicbrainzclient.cpp
   musicbrainz/tagfetcher.cpp
+  musicbrainz/listenbrainzclient.cpp
 
   networkremote/incomingdataparser.cpp
   networkremote/networkremote.cpp
@@ -518,6 +519,7 @@ set(HEADERS
   musicbrainz/acoustidclient.h
   musicbrainz/musicbrainzclient.h
   musicbrainz/tagfetcher.h
+  musicbrainz/listenbrainzclient.h
 
   networkremote/networkremotehelper.h
   networkremote/networkremote.h
